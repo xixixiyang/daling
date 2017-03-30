@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.da-header{
+    width:1340px;
+    height: 40px;
+    background: #f2f2f2; 
+}
+.da-header-inner{
+    font-size: 12px;
+    padding: 10px;
+
+}
+.da-header-inner a{
+     color: #666;
+}
+.da-header-user{
+    float: right;
+}
+.da-header-user span{
+    margin: 8px;
+    color: #666
+}
+.da-banner {
+    width: 1340px;
+    height: 120px;
+}
+form{
+    width: 725px;
+    float: right;
+    position: relative;
+}
+input{
+    width: 312px;
+    height: 36px;
+    border: 2px solid #6b4185;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+button{
+    width: 82px;
+    height: 42px;
+    background-color:#6b4185;
+    border: 2px solid #6b4185;
+    position: absolute;
+    top: 30px;
+    left:312px;
+    color: #fff;
+    font-size: 16px; 
+}
+p{
+    position: absolute;
+    top:72px;
+    font-size: 12px;
+}
+
+.da-header-cart{
+    width:  170px;
+    height:     40px;
+    float:  right;
+    border:1px solid #ccc;
+    position:   relative;   margin-top:30px;
+    margin-left:65px;
+    background-color: #f2f2f2;       
+}
+
+.da-header-cart a{
+    font-size:  16px;
+    color:  #838383;
+    line-height:    40px;
+    padding-left:   60px;
+}
+ .car{
+    display: inline-block;
+    width: 31px;
+    height: 27px;
+    position: absolute;
+    left: 16px;
+    top: 8px;
+}
+.span{
+    display: inline-block;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    position:absolute;
+    top: -8px;
+    left: 137px; 
+}
+.nav{
+    width: 1340px;
+
+}
+.nav-ul>li{
+ float: left;
+}
