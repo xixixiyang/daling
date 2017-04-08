@@ -1,0 +1,63 @@
+body { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+.login_out { cursor: pointer; }
+
+.page { position: absolute; right: 558px; bottom: 20px; }
+
+.page span { display: inline-block; margin: 0 5px; width: 20px; height: 20px; overflow: hidden; text-align: center; background-color: #efefef; border-radius: 50%; }
+
+.page span.active { background-color: #f60; color: #fff; }
+
+.da-header { width: 1350px; height: 40px; background: #f2f2f2; }
+
+.da-header .da-header-inner { font-size: 12px; padding: 10px; }
+
+.da-header .da-header-inner a { color: #666; }
+
+.da-header-user { float: right; }
+
+.da-header-user span { margin: 8px; color: #666; }
+
+.da-banner { width: 1350px; height: 120px; position: relative; }
+
+.da-banner .logo { padding-left: 20px; position: absolute; top: 35px; left: 20px; }
+
+form { width: 725px; float: right; position: absolute; top: 5px; left: 548px; }
+
+input { width: 312px; height: 36px; border: 2px solid #6b4185; position: absolute; top: 30px; left: 0; }
+
+button { width: 82px; height: 42px; background-color: #6b4185; border: 2px solid #6b4185; position: absolute; top: 30px; left: 312px; color: #fff; font-size: 16px; }
+
+p { position: absolute; top: 72px; font-size: 12px; }
+
+.da-header-cart { width: 170px; height: 40px; float: right; border: 1px solid #ccc; position: relative; margin-top: 30px; margin-left: 65px; background-color: #f2f2f2; }
+
+.da-header-cart a { font-size: 16px; color: #838383; line-height: 40px; padding-left: 60px; }
+
+.car { display: inline-block; width: 31px; height: 27px; position: absolute; left: 16px; top: 8px; }
+
+.da-header-cart .span { display: inline-block; border-radius: 100%; height: 20px; width: 20px; text-align: center; background-color: red; color: #fff; position: absolute; top: -8px; left: 137px; }
+
+.da-header-search .search-hot a { color: #666; font-size: 12px; }
+
+.nav { width: 1350px; height: 30px; background-color: #333333; }
+
+.nav .first { color: #fff; }
+
+.nav-ul > li { font-size: 16px; float: left; margin-left: 95px; line-height: 30px; }
+
+.nav-ul > li a { color: #fff; }
+
+.nav-ul > li ul { color: #fff; padding-left: 60px; position: absolute; top: 206px; left: 0; }
+
+.banner { width: 1350px; height: 480px; }
+
+.banner .leftBox { width: 144px; height: 480px; display: inline-block; }
+
+.banner .centerBox { display: inline-block; width: 1200px; height: 480px; position: relative; }
+
+.banner .centerBox li { float: left; overflow: hidden; position: absolute; z-index: -1; }

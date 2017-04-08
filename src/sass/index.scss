@@ -1,0 +1,506 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+ li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.login_out{
+     cursor:pointer;
+}
+.page{position: absolute;right:558px;bottom:20px;}
+        .page span{display:inline-block;margin:0 5px;width:20px;height:20px;overflow:hidden;text-align:center;background-color:#efefef;border-radius:50%;}
+        .page span.active{background-color:#f60;color:#fff;}
+.da-header{
+    width:1350px;
+    height: 40px;
+    background: #f2f2f2; 
+   .da-header-inner{
+    font-size: 12px;
+    padding: 10px;
+    a{
+     color: #666;
+    }
+
+ } 
+}
+.da-header-user{
+    float: right;
+}
+.da-header-user span{
+    margin: 8px;
+    color: #666
+}
+.da-banner {
+    width: 1350px;
+    height: 120px;
+    position:relative;
+
+    .logo{
+    padding-left:20px;
+    position:absolute;
+    top:35px;
+    left:20px;
+    
+    }
+}
+
+form{
+    width: 725px;
+    float: right;
+    position: absolute;
+    top:5px;
+    left:548px;
+
+}
+input{
+    width: 312px;
+    height: 36px;
+    border: 2px solid #6b4185;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+button{
+    width: 82px;
+    height: 42px;
+    background-color:#6b4185;
+    border: 2px solid #6b4185;
+    position: absolute;
+    top: 30px;
+    left:312px;
+    color: #fff;
+    font-size: 16px; 
+}
+p{
+    position: absolute;
+    top:72px;
+    font-size: 12px;
+}
+
+.da-header-cart{
+    width:  170px;
+    height:     40px;
+    float:  right;
+    border:1px solid #ccc;
+    position:   relative;   margin-top:30px;
+    margin-left:65px;
+    background-color: #f2f2f2;       
+}
+
+.da-header-cart a{
+    font-size:  16px;
+    color:  #838383;
+    line-height:    40px;
+    padding-left:   60px;
+}
+ .car{
+    display: inline-block;
+    width: 31px;
+    height: 27px;
+    position: absolute;
+    left: 16px;
+    top: 8px;
+}
+.da-header-cart .span{
+    display: inline-block;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    position:absolute;
+    top: -8px;
+    left: 137px; 
+}
+.da-header-search{
+    .search-hot{
+    a{
+    color:#666;
+    font-size:12px;
+    }
+    }
+}
+.nav{
+    width: 1350px;
+    height:30px;
+    background-color:#333333;
+
+    .first{
+     color:#fff;
+
+    }
+
+
+}
+.nav-ul>li{
+font-size:16px;
+ float: left;
+ margin-left:95px;
+ line-height:30px;
+ 
+ a{
+  color:#fff;
+ }
+ ul{
+
+ 
+ color:#fff;
+ padding-left:60px;
+ position:absolute;
+ top:206px;
+ left:0;
+ li{
+ width:180px;
+ height:80px;
+ font-size:12px;
+ color:#666666;
+ background-color:#e8e3eb;
+ padding:20px;
+ border:1px solid #ccc;
+ a{
+  color:#666666;
+  font-size:10px;
+ }
+ }
+ }
+}
+.banner{
+    width:1350px;
+    height:480px;
+    .leftBox{
+    width:144px;
+    height:480px;
+    display:inline-block;
+
+    }
+    .centerBox{
+    display:inline-block;
+    width:1200px;
+    height:480px;
+    position:relative;
+    li{
+    float:left;
+    overflow:hidden;
+    position:absolute;
+    z-index:-1;
+
+    }
+   
+    }
+  
+  
+
+}
+.goods{
+    width:1350px;
+    height:1190px;
+    background-color:#f9f9f9;
+    position:relative;
+    .span-left{
+    display:inline-block;
+    width:100px;
+    border:1px solid #676767;
+    position:absolute;
+    top:70px;
+    left:540px;
+    }
+     .span-right{
+    display:inline-block;
+    width:100px;
+    border:1px solid #676767;
+    position:absolute;
+    top:70px;
+    left:728px;
+    }
+    .find{
+    height:143px;
+    line-height:143px;
+    font-size:18px;
+    color:#666;
+    padding-left:650px;
+
+    }
+    .mustsee{
+    display:inline-block;
+    width:200px;
+
+    margin-left:60px;
+     span{
+    font-size:14px;
+    padding-left:20px;
+    color:#797979;
+    }
+    }
+    .product{
+    width:1350px;
+    height:300px;
+
+    }
+     .new{
+    display:inline-block;
+    width:215px;
+
+    margin-left:54px;
+      span{
+    font-size:14px;
+    padding-left:20px;
+       color:#797979;
+    }
+    }
+   
+    ul li{
+     float:left;
+     margin-left:20px;
+   
+   
+    }
+    .section2 ul li{
+     
+     background-color:#ffffff;
+     height:380px;
+     width:283px;
+     border:1px solid #e5e5e5;
+     
+    }
+    .now-price{
+    color:#e14958;
+    font-size:16px;
+    }
+    .discount{
+    color:#e9635f;
+    font-size:10px;
+    }
+    .old-price{
+    font-size:9px;
+    color:#666666;
+    text-decoration:line-through;
+    }
+    .collect{
+    font-size:12px;
+    color:#666666;
+    margin-left:90px;
+    }
+    .read{
+    font-size:12px;
+    a{
+    color:#666666;
+    }
+
+    
+    }
+    .danpin{
+    li{
+    margin-top:20px;
+    width:589px;
+    height:239px;
+    background-color:#fff;
+    position:relative;
+ 
+    .price-top{
+    width:306px;
+    position:absolute;
+    left:315px;
+    top:68px;
+      }
+    .price-buttom{
+    width:230px;
+    position:absolute;
+    left:315px;
+    top:145px;
+      }
+     }
+
+    }
+
+}
+.product{
+    width:1350px;
+    height:650px;
+    background-color:#f9f9f9;
+    .good{
+    padding:50px 0 12px 65px;
+    font-size:16px;
+    }
+    .goods3{
+    width:1200px;
+    height:500px;
+    margin-left:56px;
+    background-color:#fff;
+       .tab{
+        padding-top:42px;
+        .title{
+         padding-left:36px;
+         span{
+          display:inline-block;
+          width:88px;
+          height:28px;
+          line-height:28px;
+          border:1px solid #e5e5e5;
+          padding-left:22px;
+         }
+        }
+        .content{
+        width:1200px;
+        li{
+        padding-left:82px;
+        list-style:none;
+        float:left;
+        width:282px;
+        padding-top:20px;
+        .now-price{
+        color:#e14958;
+        font-size:16px;
+        }
+    
+        .old-price{
+        font-size:9px;
+        color:#666666;
+        text-decoration:line-through;
+        }
+        .data{
+        font-size:12px;
+        a{
+        color:#666;
+        }
+        }
+        .content{
+         width:255px;
+         background-color:#fffde6;
+         .read{
+         font-size:12px;
+         a{
+         color:#666;
+         }
+         }
+        }
+        }
+        }
+      }
+    }
+
+}
+.da-footer{
+    width:1382px;
+    height:290px;
+
+    ul li{
+
+        
+        height:80px;
+        line-height:80px;
+        float:left;
+        margin-left:130px;
+       
+
+        
+    }
+
+    .clearfix{
+        height:80px;
+        position:relative;
+        .ico-arrow{
+        display:inline-block;
+        width:22px;
+        height:41px;
+        background:url(../img/foot1.jpg);
+        position:relative;
+        top:15px;
+        left:30px;
+        
+        }
+        .assure-1{
+        display:inline-block;
+        width:31px;
+        height:30px;
+        background:url(../img/foot2.jpg);
+        position:relative;
+        top:10px;
+        left:-5px;
+        }
+        .assure-2{
+        display:inline-block;
+        width:31px;
+        height:30px;
+        background:url(../img/foot3.jpg);
+        position:relative;
+        top:10px;
+        left:-5px;
+        }
+        .assure-3{
+        display:inline-block;
+        width:31px;
+        height:30px;
+        background:url(../img/foot4.jpg);
+        position:relative;
+        top:10px;
+        left:-5px;
+        }
+
+
+    }
+    .da-investor{
+        width:1345px;
+        height:145px;
+        margin-left:10px;
+        border-top:2px solid #666;
+        dl{
+        float:left;
+        margin-left:200px;
+        color:#666;
+
+
+        dt{
+        font-size:18px;
+
+        }
+        dd{
+        font-size:12px;
+         padding-top:20px;
+        }
+
+        }
+        
+
+    }
+    .da-copyright{
+    width:1200px;
+    height:166px;
+    position:relative;
+    margin-left:80px;
+    border-top:1px solid #666;
+    .f14{
+    position:absolute;
+    top:20px;
+    left:250px;
+    font-size:14px;
+    a{
+    color:#666; 
+    }
+    }
+    }
+    .links{
+    font-size:14px;
+    color:#666;
+    position:absolute;
+    top:60px;
+    left:250px;
+    }
+    .f15{
+    font-size:14px;
+    color:#666;
+    position:absolute;
+    top:135px;
+    left:100px;
+    }
+
+}
+.active{
+    color:#fff; background:#e14958;
+}

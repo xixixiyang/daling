@@ -1,0 +1,127 @@
+.da-footer { width: 1382px; height: 290px; }
+
+.da-footer ul li { height: 80px; line-height: 80px; float: left; margin-left: 130px; }
+
+.da-footer .clearfix { height: 80px; position: relative; }
+
+.da-footer .clearfix .ico-arrow { display: inline-block; width: 22px; height: 41px; background: url(../img/foot1.jpg); position: relative; top: 15px; left: 30px; }
+
+.da-footer .clearfix .assure-1 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot2.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .clearfix .assure-2 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot3.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .clearfix .assure-3 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot4.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .da-investor { width: 1345px; height: 145px; margin-left: 10px; border-top: 2px solid #666; }
+
+.da-footer .da-investor dl { float: left; margin-left: 200px; color: #666; }
+
+.da-footer .da-investor dl dt { font-size: 18px; }
+
+.da-footer .da-investor dl dd { font-size: 12px; padding-top: 20px; }
+
+.da-footer .da-copyright { width: 1200px; height: 166px; position: relative; margin-left: 80px; border-top: 1px solid #666; }
+
+.da-footer .da-copyright .f14 { position: absolute; top: 20px; left: 250px; font-size: 14px; }
+
+.da-footer .da-copyright .f14 a { color: #666; }
+
+.da-footer .links { font-size: 14px; color: #666; position: absolute; top: 60px; left: 250px; }
+
+.da-footer .f15 { font-size: 14px; color: #666; position: absolute; top: 135px; left: 100px; }
+
+body { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+.login_out { cursor: pointer; }
+
+.page { position: absolute; right: 558px; bottom: 20px; }
+
+.page span { display: inline-block; margin: 0 5px; width: 20px; height: 20px; overflow: hidden; text-align: center; background-color: #efefef; border-radius: 50%; }
+
+.page span.active { background-color: #f60; color: #fff; }
+
+.da-header { width: 1350px; height: 40px; background: #f2f2f2; }
+
+.da-header .da-header-inner { font-size: 12px; padding: 10px; }
+
+.da-header .da-header-inner a { color: #666; }
+
+.da-header-user { float: right; }
+
+.da-header-user span { margin: 8px; color: #666; }
+
+.da-banner { width: 1350px; height: 120px; position: relative; }
+
+.da-banner .logo { padding-left: 20px; position: absolute; top: 35px; left: 20px; }
+
+form { width: 725px; float: right; position: absolute; top: 5px; left: 548px; }
+
+input { width: 312px; height: 36px; border: 2px solid #6b4185; position: absolute; top: 30px; left: 0; }
+
+button { width: 82px; height: 42px; background-color: #6b4185; border: 2px solid #6b4185; position: absolute; top: 30px; left: 312px; color: #fff; font-size: 16px; }
+
+p { position: absolute; top: 72px; font-size: 12px; }
+
+.da-header-cart { width: 170px; height: 40px; float: right; border: 1px solid #ccc; position: relative; margin-top: 30px; margin-left: 65px; background-color: #f2f2f2; }
+
+.da-header-cart a { font-size: 16px; color: #838383; line-height: 40px; padding-left: 60px; }
+
+.car { display: inline-block; width: 31px; height: 27px; position: absolute; left: 16px; top: 8px; }
+
+.da-header-cart .span { display: inline-block; border-radius: 100%; height: 20px; width: 20px; text-align: center; background-color: red; color: #fff; position: absolute; top: -8px; left: 137px; }
+
+.da-header-search .search-hot a { color: #666; font-size: 12px; }
+
+.nav { width: 1350px; height: 30px; background-color: #333333; }
+
+.nav .first { color: #fff; }
+
+.nav-ul > li { font-size: 16px; float: left; margin-left: 95px; line-height: 30px; }
+
+.nav-ul > li a { color: #fff; }
+
+.nav-ul > li ul { color: #fff; padding-left: 60px; position: absolute; top: 206px; left: 0; }
+
+.banner { width: 1350px; height: 480px; }
+
+.banner .leftBox { width: 144px; height: 480px; display: inline-block; }
+
+.banner .centerBox { display: inline-block; width: 1200px; height: 480px; position: relative; }
+
+.banner .centerBox li { float: left; overflow: hidden; position: absolute; z-index: -1; }
+
+.da-login-bg { padding-bottom: 40px; }
+
+.da-login-bg li { position: relative; margin-top: 20px; }
+
+.da-login-bg img { margin-left: 80px; }
+
+.da-login-bg .name { position: absolute; top: 10px; left: 565px; }
+
+.da-login-bg .danjia { position: absolute; top: 10px; left: 820px; }
+
+.da-login-bg .shuliang { position: absolute; top: 10px; left: 950px; }
+
+.da-login-bg .xiaoji { position: absolute; top: 10px; left: 1065px; }
+
+.da-login-bg .caozuo { position: absolute; top: 10px; left: 1200px; }
+
+.da-login-bg h6 { position: absolute; top: 70px; left: 460px; width: 300px; }
+
+.da-login-bg .price { position: absolute; top: 95px; left: 825px; }
+
+.da-login-bg .idx { position: absolute; top: 95px; left: 960px; }
+
+.da-login-bg .sum { position: absolute; top: 95px; left: 1065px; }
+
+.da-login-bg .btnclose { position: absolute; top: 95px; left: 1200px; cursor: pointer; }
+
+.da-login-bg .heji { position: absolute; color: red; right: 317px; }
+
+.da-login-bg .sump { position: absolute; color: red; right: 270px; }
+
+.da-login-bg .pay { display: inline-block; width: 80px; height: 30px; line-height: 30px; color: #fff; background-color: #f25e5a; position: absolute; right: 140px; cursor: pointer; padding-left: 12px; }

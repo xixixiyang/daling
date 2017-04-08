@@ -1,0 +1,44 @@
+@import 'header';
+@import 'footer';
+.container{
+    height:852px;
+    li{
+    cursor:pointer;
+    float:left;
+    width:283px;
+    height:400px;
+    margin:30px 40px 0 100px;
+    
+      .now-price{
+    
+    color:#e14958;
+    font-size:16px;
+    }
+    .discount{
+    color:#e9635f;
+    font-size:10px;
+    }
+    .old-price{
+    font-size:9px;
+    color:#666666;
+    text-decoration:line-through;
+    }
+    .collect{
+    font-size:12px;
+    color:#666666;
+    margin-left:90px;
+    }
+    
+    .title{
+    .read{
+    font-size:12px;
+    a{
+    color:#666666;
+    }
+    }
+    }
+    
+
+
+    }
+}

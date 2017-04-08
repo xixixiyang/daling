@@ -1,0 +1,31 @@
+.da-footer { width: 1382px; height: 290px; }
+
+.da-footer ul li { height: 80px; line-height: 80px; float: left; margin-left: 130px; }
+
+.da-footer .clearfix { height: 80px; position: relative; }
+
+.da-footer .clearfix .ico-arrow { display: inline-block; width: 22px; height: 41px; background: url(../img/foot1.jpg); position: relative; top: 15px; left: 30px; }
+
+.da-footer .clearfix .assure-1 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot2.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .clearfix .assure-2 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot3.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .clearfix .assure-3 { display: inline-block; width: 31px; height: 30px; background: url(../img/foot4.jpg); position: relative; top: 10px; left: -5px; }
+
+.da-footer .da-investor { width: 1345px; height: 145px; margin-left: 10px; border-top: 2px solid #666; }
+
+.da-footer .da-investor dl { float: left; margin-left: 200px; color: #666; }
+
+.da-footer .da-investor dl dt { font-size: 18px; }
+
+.da-footer .da-investor dl dd { font-size: 12px; padding-top: 20px; }
+
+.da-footer .da-copyright { width: 1200px; height: 166px; position: relative; margin-left: 80px; border-top: 1px solid #666; }
+
+.da-footer .da-copyright .f14 { position: absolute; top: 20px; left: 250px; font-size: 14px; }
+
+.da-footer .da-copyright .f14 a { color: #666; }
+
+.da-footer .links { font-size: 14px; color: #666; position: absolute; top: 60px; left: 250px; }
+
+.da-footer .f15 { font-size: 14px; color: #666; position: absolute; top: 135px; left: 100px; }

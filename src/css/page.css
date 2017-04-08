@@ -54,10 +54,6 @@ p { position: absolute; top: 72px; font-size: 12px; }
 
 .nav-ul > li ul { color: #fff; padding-left: 60px; position: absolute; top: 206px; left: 0; }
 
-.nav-ul > li ul li { width: 180px; height: 80px; font-size: 12px; color: #666666; background-color: #e8e3eb; padding: 20px; border: 1px solid #ccc; }
-
-.nav-ul > li ul li a { color: #666666; font-size: 10px; }
-
 .banner { width: 1350px; height: 480px; }
 
 .banner .leftBox { width: 144px; height: 480px; display: inline-block; }
@@ -65,76 +61,6 @@ p { position: absolute; top: 72px; font-size: 12px; }
 .banner .centerBox { display: inline-block; width: 1200px; height: 480px; position: relative; }
 
 .banner .centerBox li { float: left; overflow: hidden; position: absolute; z-index: -1; }
-
-.goods { width: 1350px; height: 1190px; background-color: #f9f9f9; position: relative; }
-
-.goods .span-left { display: inline-block; width: 100px; border: 1px solid #676767; position: absolute; top: 70px; left: 540px; }
-
-.goods .span-right { display: inline-block; width: 100px; border: 1px solid #676767; position: absolute; top: 70px; left: 728px; }
-
-.goods .find { height: 143px; line-height: 143px; font-size: 18px; color: #666; padding-left: 650px; }
-
-.goods .mustsee { display: inline-block; width: 200px; margin-left: 60px; }
-
-.goods .mustsee span { font-size: 14px; padding-left: 20px; color: #797979; }
-
-.goods .product { width: 1350px; height: 300px; }
-
-.goods .new { display: inline-block; width: 215px; margin-left: 54px; }
-
-.goods .new span { font-size: 14px; padding-left: 20px; color: #797979; }
-
-.goods ul li { float: left; margin-left: 20px; }
-
-.goods .section2 ul li { background-color: #ffffff; height: 380px; width: 283px; border: 1px solid #e5e5e5; }
-
-.goods .now-price { color: #e14958; font-size: 16px; }
-
-.goods .discount { color: #e9635f; font-size: 10px; }
-
-.goods .old-price { font-size: 9px; color: #666666; text-decoration: line-through; }
-
-.goods .collect { font-size: 12px; color: #666666; margin-left: 90px; }
-
-.goods .read { font-size: 12px; }
-
-.goods .read a { color: #666666; }
-
-.goods .danpin li { margin-top: 20px; width: 589px; height: 239px; background-color: #fff; position: relative; }
-
-.goods .danpin li .price-top { width: 306px; position: absolute; left: 315px; top: 68px; }
-
-.goods .danpin li .price-buttom { width: 230px; position: absolute; left: 315px; top: 145px; }
-
-.product { width: 1350px; height: 650px; background-color: #f9f9f9; }
-
-.product .good { padding: 50px 0 12px 65px; font-size: 16px; }
-
-.product .goods3 { width: 1200px; height: 500px; margin-left: 56px; background-color: #fff; }
-
-.product .goods3 .tab { padding-top: 42px; }
-
-.product .goods3 .tab .title { padding-left: 36px; }
-
-.product .goods3 .tab .title span { display: inline-block; width: 88px; height: 28px; line-height: 28px; border: 1px solid #e5e5e5; padding-left: 22px; }
-
-.product .goods3 .tab .content { width: 1200px; }
-
-.product .goods3 .tab .content li { padding-left: 82px; list-style: none; float: left; width: 282px; padding-top: 20px; }
-
-.product .goods3 .tab .content li .now-price { color: #e14958; font-size: 16px; }
-
-.product .goods3 .tab .content li .old-price { font-size: 9px; color: #666666; text-decoration: line-through; }
-
-.product .goods3 .tab .content li .data { font-size: 12px; }
-
-.product .goods3 .tab .content li .data a { color: #666; }
-
-.product .goods3 .tab .content li .content { width: 255px; background-color: #fffde6; }
-
-.product .goods3 .tab .content li .content .read { font-size: 12px; }
-
-.product .goods3 .tab .content li .content .read a { color: #666; }
 
 .da-footer { width: 1382px; height: 290px; }
 
@@ -168,4 +94,18 @@ p { position: absolute; top: 72px; font-size: 12px; }
 
 .da-footer .f15 { font-size: 14px; color: #666; position: absolute; top: 135px; left: 100px; }
 
-.active { color: #fff; background: #e14958; }
+.container { height: 852px; }
+
+.container li { cursor: pointer; float: left; width: 283px; height: 400px; margin: 30px 40px 0 100px; }
+
+.container li .now-price { color: #e14958; font-size: 16px; }
+
+.container li .discount { color: #e9635f; font-size: 10px; }
+
+.container li .old-price { font-size: 9px; color: #666666; text-decoration: line-through; }
+
+.container li .collect { font-size: 12px; color: #666666; margin-left: 90px; }
+
+.container li .title .read { font-size: 12px; }
+
+.container li .title .read a { color: #666666; }
